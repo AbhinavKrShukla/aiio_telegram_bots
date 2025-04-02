@@ -455,7 +455,6 @@ async def show_main_menu(update: Update, context: CallbackContext) -> None:
             f"Total open/read – {total_opened} | {total_open_pct:.2f}%\n"
             f"Total links opened – {total_clicks} | {total_click_pct:.2f}%\n"
             f"Total responses – {total_replies} | {total_reply_pct:.2f}%\n\n"
-            f"<a href='{CLIENT_GROUPS[client_type]['analytics_link']}'>View full campaign analytics</a>\n\n"
             f"<b>Select an option:</b>\n"
         )
     
